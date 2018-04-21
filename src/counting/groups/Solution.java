@@ -64,7 +64,6 @@ public class Solution {
 			if (m[row][col] == 1 && !visited[row][col]) {
 				Cell node = new Cell(row, col);
 				visited[row][col] = true;
-				System.out.println("Row:"+row+" Column:"+col);
 				queue.add(node);
 			}
 		}
